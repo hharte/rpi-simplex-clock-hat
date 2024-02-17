@@ -407,7 +407,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rpi-simplex-hat.kicad_pro",
+    "filename": "rpi-simplex-clock-hat.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -462,7 +462,7 @@
       "/VIN": "POWER",
       "AC": "POWER",
       "GND": "POWER",
-      "Net-(D1-Pad3)": "POWER"
+      "Net-(D1-Pad2)": "POWER"
     },
     "netclass_patterns": [
       {
