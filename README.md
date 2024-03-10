@@ -7,6 +7,8 @@ This project is a Raspberry Pi-compatible hat for controlling Simplex Synchronou
 
 ![alt_text](https://raw.githubusercontent.com/hharte/rpi-simplex-clock-hat/main/images/rpi-simplex-clock-hat.png "image_tooltip")
 
+![alt_text](https://raw.githubusercontent.com/hharte/rpi-simplex-clock-hat/main/images/rpi-simplex-clock-hat_assembled.jpg "image_tooltip")
+
 
 # Connectors
 
@@ -201,6 +203,218 @@ This board contains an AC to DC power supply to power the Raspberry Pi Zero 2 W 
 When installed, JP1 provides 5VDC to the Raspberry Pi.  This hat can supply 5VDC at 1.2A, which is enough for a Raspberry Pi Zero 2W.
 
 
+# Bill of Materials
+
+
+<table>
+  <tr>
+   <td><strong><em>Reference</em></strong>
+   </td>
+   <td><strong><em>Value</em></strong>
+   </td>
+   <td><strong><em>Quantity</em></strong>
+   </td>
+   <td><strong><em><a href="https://www.digikey.com/en/mylists/list/S3O64GTQV0">DigiKey</a></em></strong>
+   </td>
+   <td><strong><em><a href="https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=516dae8649">Mouser</a></em></strong>
+   </td>
+  </tr>
+  <tr>
+   <td>C1
+   </td>
+   <td>10uF / 25V
+   </td>
+   <td>1
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/panasonic-electronic-components/ECE-A1EN100UI/2689106">ECE-A1EN100UI</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/Panasonic/ECE-A1EN100UI?qs=0h1gzos03f36mGOUyzNXaA%3D%3D">ECE-A1EN100UI</a>
+   </td>
+  </tr>
+  <tr>
+   <td>C2,C4,C5
+   </td>
+   <td>0.1uF
+   </td>
+   <td>3
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/kemet/C315C104M5U5TA7303/3726116">C315C104M5U5TA7303</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/KEMET/C315C104M5U5TA7303?qs=LRwtGMyvRhhtzW9z3Tp7qQ%3D%3D">C315C104M5U5TA7303</a>
+   </td>
+  </tr>
+  <tr>
+   <td>C3
+   </td>
+   <td>100uF / 100V
+   </td>
+   <td>1
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/kyocera-avx/REF1016101M100K/20096922">REF1016101M100K</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/KYOCERA-AVX/REF1016101M100K?qs=Y0Uzf4wQF3nLwPgf4aAj8g%3D%3D">REF1016101M100K</a>
+   </td>
+  </tr>
+  <tr>
+   <td>D1
+   </td>
+   <td>B250C1000G-E4/51
+   </td>
+   <td>1
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/B250C1000G-E4-51/2139752">B250C1000G-E4/51</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/625-B250C1000G-E4">625-B250C1000G-E4</a>
+   </td>
+  </tr>
+  <tr>
+   <td>F1
+   </td>
+   <td>630mA
+   </td>
+   <td>1
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/littelfuse-inc/0251-630MAT1L/700712">F7846CT-ND</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/Littelfuse/0251.630MAT1L?qs=LpXnx4WbYtB1cmQ95xjPnQ%3D%3D">0251.630MAT1L</a>
+   </td>
+  </tr>
+  <tr>
+   <td>J1
+   </td>
+   <td>TBP01R1-508-04BE
+   </td>
+   <td>1
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/cui-devices/TBP01R1-508-04BE/10238385">TBP01R1-508-04BE</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/CUI-Devices/TBP01R1-508-04BE?qs=PzGy0jfpSMtbuigPwCNi2Q%3D%3D"> TBP01R1-508-04BE</a>
+   </td>
+  </tr>
+  <tr>
+   <td>P1
+   </td>
+   <td>TBP01P1-508-04BE
+   </td>
+   <td>1
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/cui-devices/TBP01P1-508-04BE/10238369">TBP01P1-508-04BE</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/CUI-Devices/TBP01P1-508-04BE?qs=PzGy0jfpSMudTtVMrQOyVQ%3D%3D">TBP01P1-508-04BE</a>
+   </td>
+  </tr>
+  <tr>
+   <td>J2,J4
+   </td>
+   <td>2.1mm Barrel
+   </td>
+   <td>1
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/switchcraft-inc/RAPC722BK/1288776">RAPC722BK</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/Switchcraft/RAPC722BK?qs=Nl9mtr8tY%2Fsf3BOYJcSXfg%3D%3D">RAPC722BK</a>
+   </td>
+  </tr>
+  <tr>
+   <td>J3
+   </td>
+   <td>2x20 female
+   </td>
+   <td>1
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/samtec-inc/SSQ-120-01-F-D/6678748">SSQ-120-01-F-D</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/200-SSQ12001FD">SSQ-120-01-F-D</a>
+   </td>
+  </tr>
+  <tr>
+   <td>JP1
+   </td>
+   <td>Short with wire.
+   </td>
+   <td>-
+   </td>
+   <td>-
+   </td>
+   <td>-
+   </td>
+  </tr>
+  <tr>
+   <td>PS1
+   </td>
+   <td>SPBW06-05
+   </td>
+   <td>1
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/mean-well-usa-inc/SPBW06F-05/7707011">SPBW06F-05</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/709-SPBW06G-05">709-SPBW06G-05</a>
+   </td>
+  </tr>
+  <tr>
+   <td>R1,R2
+   </td>
+   <td>220 ohm
+   </td>
+   <td>2
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT220R/1741901">CFM12JT220R</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/YAGEO/CFR-25JR-52-220K?qs=KUIzHt%2Fe91nHT%2FPpMV7tqA%3D%3D">CFR-25JR-52-220</a>
+   </td>
+  </tr>
+  <tr>
+   <td>R3,R4
+   </td>
+   <td>3.9K ohm
+   </td>
+   <td>2
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT3K90/1741927">S3e9 KHCT-ND</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/YAGEO/CFR-25JR-52-3K9?qs=19cKSROHwrB%2FJo8M8ItsUQ%3D%3D">CFR-25JR-52-3K9</a>
+   </td>
+  </tr>
+  <tr>
+   <td>U1
+   </td>
+   <td>LAA108
+   </td>
+   <td>1
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/LAA108/3077633">LAA108</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/IXYS-Integrated-Circuits/LAA108?qs=OpMkDkHXivMke3NLFDg0nw%3D%3D">849-LAA108</a>
+   </td>
+  </tr>
+  <tr>
+   <td>U2
+   </td>
+   <td>24LC256
+   </td>
+   <td>1
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/24LC64-I-P/273427">24LC64-I/P</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/Microchip-Technology/24LC64-I-P?qs=EkZBwCRGcSvc%252BCDluHmdqw%3D%3D">24LC64-I/P</a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>8-pin DIP Sockets
+   </td>
+   <td>2
+   </td>
+   <td><a href="https://www.digikey.com/en/products/detail/assmann-wsw-components/AR-08-HZL-TT/821765">AR 08-HZL-TT</a>
+   </td>
+   <td><a href="https://www.mouser.com/ProductDetail/Mill-Max/110-41-308-41-001000?qs=dvxwXVM4mZVj1CY1TePuww%3D%3D">110-41-308-41-001000</a>
+   </td>
+  </tr>
+</table>
+
+
+
 # Hat ID EEPROM
 
 The board contains a footprint for a 24C256 or similar serial EEPROM.  This EEPROM connects to the Raspberry Pi’s i2c-0 port, and contains configuration data describing the hat.
@@ -325,6 +539,11 @@ Pin Extractor: DAP-T292328: [https://www.amazon.com/dp/B0C4NWRQD4](https://www.a
 # Clock Movement Bushings
 
 The clock movements are mounted using pins with spring clips and rubber bushings.  These rubber bushings are get dried out and brittle with age.  If you would like to replace them, the ¼” grommets in this kit work well: [300 Pcs Rubber Grommets Kit](https://www.amazon.com/gp/product/B0BXKXMT55).
+
+
+# Compatibility with other Pi Hats
+
+The synchronous clock controller is designed to support piggybacking with the [Uputronics Pi GPS/RTC Expansion Board](https://store.uputronics.com/index.php?route=product/product&product_id=81).  When used in conjunction with the GPS Expansion Board, a complete accurate time solution can be realized.
 
 
 # Revision History
