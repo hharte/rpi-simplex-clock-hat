@@ -2,3 +2,4 @@
 *.lck
 _autosave*.*
 *.FCbak
+*.gcode

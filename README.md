@@ -203,7 +203,7 @@ This board contains an AC to DC power supply to power the Raspberry Pi Zero 2 W 
 When installed, JP1 provides 5VDC to the Raspberry Pi.  This hat can supply 5VDC at 1.2A, which is enough for a Raspberry Pi Zero 2W.
 
 
-# Bill of Materials
+# Bill of Materials ([Interactive BOM](https://html-preview.github.io/?url=https://github.com/hharte/rpi-simplex-clock-hat/blob/main/hardware/bom/ibom.html))
 
 
 <table>
@@ -370,7 +370,7 @@ When installed, JP1 provides 5VDC to the Raspberry Pi.  This hat can supply 5VDC
    </td>
    <td>2
    </td>
-   <td><a href="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT3K90/1741927">S3e9 KHCT-ND</a>
+   <td><a href="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT3K90/1741927">S3.9KHCT-ND</a>
    </td>
    <td><a href="https://www.mouser.com/ProductDetail/YAGEO/CFR-25JR-52-3K9?qs=19cKSROHwrB%2FJo8M8ItsUQ%3D%3D">CFR-25JR-52-3K9</a>
    </td>
@@ -484,7 +484,14 @@ sudo ./eepflash.sh -r -t=24c64 -f=readout.eep
 After programming the EEPROM and rebooting, the hat information should be available in `/proc/device-tree/hat/`
 
 
+# Mounting Brackets
+
+3D-printable mounting brackets for the [Raspberry Pi Zero 2 W](https://github.com/hharte/rpi-simplex-clock-hat/blob/main/mounting/rpi-zero-simplex-clock-mounting.stl) and [full-size Raspberry Pi](https://github.com/hharte/rpi-simplex-clock-hat/blob/main/mounting/rpi-simplex-clock-mounting.stl) are provided.  The Raspberry Pi Zero 2 W can fit inside the clock movement housing.
+
+
 # Software Installation
+
+The software for this project consists of Raspberry Pi OS as well as a [Master Clock Daemon](https://github.com/hharte/master-clock.git) which is a Python script that activates the SYNC output at the correct times for hourly and 12-hour corrections.
 
 
 ## Raspberry Pi Zero 2 W
@@ -538,7 +545,7 @@ Pin Extractor: DAP-T292328: [https://www.amazon.com/dp/B0C4NWRQD4](https://www.a
 
 # Clock Movement Bushings
 
-The clock movements are mounted using pins with spring clips and rubber bushings.  These rubber bushings are get dried out and brittle with age.  If you would like to replace them, the ¼” grommets in this kit work well: [300 Pcs Rubber Grommets Kit](https://www.amazon.com/gp/product/B0BXKXMT55).
+The clock movements are mounted using pins with spring clips and rubber bushings.  These rubber bushings become dried out and brittle with age.  If you would like to replace them, the ¼” grommets in this kit work well: [300 Pcs Rubber Grommets Kit](https://www.amazon.com/gp/product/B0BXKXMT55).
 
 
 # Compatibility with other Pi Hats

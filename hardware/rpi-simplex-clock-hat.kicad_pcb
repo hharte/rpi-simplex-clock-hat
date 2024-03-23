@@ -240,6 +240,19 @@
 				)
 			)
 		)
+		(property "MPN" "SPBW06F-05"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5d9e511-d86e-4edb-967f-084025cb6549")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*XP?POWER?IA48xxD*")
 		(path "/42018f55-f597-4c21-8282-941a84a499ed")
 		(sheetname "Root")
@@ -588,6 +601,19 @@
 				)
 			)
 		)
+		(property "MPN" "TBP01R1-508-04BE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e1f5c82-3141-4e32-a8ed-653ba6093a0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/169f80dc-287d-487e-8a11-99890f5d462e")
 		(sheetname "Root")
 		(sheetfile "rpi-simplex-clock-hat.kicad_sch")
@@ -847,6 +873,19 @@
 				)
 			)
 		)
+		(property "MPN" "C315C104M5U5TA7303"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf47dbe0-f64f-47b9-9e5e-d1961ccc49d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f4d547a6-466c-438c-9ec2-566ff6392471")
 		(sheetname "Root")
@@ -1096,6 +1135,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "REF1016101M100K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "226a059d-6146-4b75-80a9-6dd6cf823821")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" "Choose a capacitor 16mm tall or less, to provide clearance inside the clock movement cover."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bee8708-1527-4b90-baa0-04178b9d256d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3184,6 +3249,19 @@
 				)
 			)
 		)
+		(property "MPN" "C315C104M5U5TA7303"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa1ef79e-8bc8-4c23-946d-d138dc3d22ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b441d57b-5b52-4604-8448-bcb3697c90f7")
 		(sheetname "Root")
@@ -3389,7 +3467,7 @@
 				)
 			)
 		)
-		(property "Value" "LAA120"
+		(property "Value" "LAA108"
 			(at 3.81 9.95 -90)
 			(layer "F.Fab")
 			(uuid "6c48fe26-0a50-499b-a688-1a229a125007")
@@ -3433,6 +3511,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LAA108"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e7ba09a-97ff-485a-bafc-84bad4470c85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3839,6 +3930,19 @@
 				)
 			)
 		)
+		(property "MPN" "0251.630MAT1L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae3bfe30-0d5a-43dc-a747-75ad7e10920f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/c2fa6d46-79d1-4e64-9bf9-2f5a6f17e57d")
 		(sheetname "Root")
@@ -4108,6 +4212,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "When installed, JP1 provides 5VDC to the Raspberry Pi.  This hat can supply 5VDC at 1.2A, which is enough for a Raspberry Pi Zero 2W."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc552094-3421-47ee-9634-d5ff693d27c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4697,6 +4814,19 @@
 				)
 			)
 		)
+		(property "MPN" "CFM12JT3K90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13b779d1-e301-4927-96d3-82db3513cadc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/96d7a503-e552-4f40-88a6-95a52be70ea5")
 		(sheetname "Root")
@@ -4989,6 +5119,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CFM12JT220R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c7f8b79-56c4-4364-9358-757b4b9587e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5364,6 +5507,19 @@
 				)
 			)
 		)
+		(property "MPN" "C315C104M5U5TA7303"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0547df1b-d36e-4941-9132-f5a07335669f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4b1dc024-6c01-46f2-84e9-de4c4f16a877")
 		(sheetname "Root")
@@ -5569,7 +5725,7 @@
 				)
 			)
 		)
-		(property "Value" "CAT24C256"
+		(property "Value" "24LC64-I/P"
 			(at 3.81 9.95 90)
 			(layer "F.Fab")
 			(uuid "555b9935-9a35-4c8d-a59f-11179821805c")
@@ -5613,6 +5769,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "24LC64-I/P"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe64df7b-3179-49a6-9c45-abf0a4d59d69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6027,6 +6196,32 @@
 				)
 			)
 		)
+		(property "MPN" "RAPC722BK"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b70f550b-d7c1-4390-9812-9dea2d7ad2cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e764e4d-867b-491a-80bb-909c737160dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "BarrelJack*")
 		(path "/c3e029b7-b929-499a-9013-e356590ea437")
 		(sheetname "Root")
@@ -6421,6 +6616,19 @@
 				)
 			)
 		)
+		(property "MPN" "CFM12JT3K90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13886d41-311f-46e5-94af-5ca0876d7603")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bfbd71ae-f085-4c86-9bd5-a0d671f3fbe8")
 		(sheetname "Root")
@@ -6715,6 +6923,19 @@
 				)
 			)
 		)
+		(property "MPN" "B250C1000G-E4/51"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96a0b9b3-bf54-4878-8691-284a5690025c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*Bridge*Round*D9.8mm*")
 		(path "/929d6a08-69fc-4390-9e47-210c9619746e")
 		(sheetname "Root")
@@ -6928,6 +7149,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CFM12JT220R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9d5f7d8-5759-4a87-8275-4553c0f87d6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7200,6 +7434,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RAPC722BK"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52bad361-230e-4de4-b881-c676dcd30a02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" "Populate either J2 or J4.  J4 is intended to give the hat a smaller footprint when installed inside the clock housing.  J2 is intended for use with a full-size Raspberry Pi."
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5aaf32de-f6d5-4115-a6dc-2d1a7b803f57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7594,6 +7854,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ECE-A1EN100UI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a7fc6cd-1e5d-4090-a29e-c5db04924fa0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9128,7 +9401,38 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "SSQ-120-01-F-D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3397a708-cb26-4e9f-b075-563ac238217a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Note" "Mount on bottom of PCB."
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fbcfb448-10e0-46fa-a9be-15a39d1e1357")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-000059ad464a")
+		(sheetname "Root")
+		(sheetfile "rpi-simplex-clock-hat.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.27 1.33)
@@ -10152,7 +10456,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "AT24C256"
+	(gr_text "24LC64"
 		(at 151.435 68.885 0)
 		(layer "F.SilkS")
 		(uuid "23b68d58-308f-40a3-8ac6-1c2928c9c00b")

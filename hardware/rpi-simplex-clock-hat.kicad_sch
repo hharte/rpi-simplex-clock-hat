@@ -5269,6 +5269,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 81.28) (xy 105.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e42a21a-a439-48d7-96f2-dbd6ece3f878")
+	)
+	(wire
+		(pts
 			(xy 119.38 124.46) (xy 119.38 133.35)
 		)
 		(stroke
@@ -6259,16 +6269,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 127 81.28)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "bc7a73bf-d271-462c-8196-ea5c7867515d")
-	)
-	(wire
-		(pts
 			(xy 93.98 172.72) (xy 93.98 175.26)
 		)
 		(stroke
@@ -6579,7 +6579,7 @@
 	)
 	(text "VIN - 24VAC for 24V Synchronous Clock\n"
 		(exclude_from_sim no)
-		(at 15.24 142.24 0)
+		(at 15.24 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6587,6 +6587,17 @@
 			(justify left bottom)
 		)
 		(uuid "62ea0924-4a54-4a31-87b0-7160492c6af4")
+	)
+	(text "Assembly Notes:\n1. When installed, JP1 provides 5VDC to the Raspberry Pi.\n   This hat can supply 5VDC at 1.2A, which is enough for\n   a Raspberry Pi Zero 2W.\n2. Populate either J2 or J4.  J4 is intended to give the\n   hat a smaller footprint when installed inside the\n   clock housing.  J2 is intended for use with a full-\n   size Raspberry Pi."
+		(exclude_from_sim no)
+		(at 140.208 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "789d3e3d-7f7d-4f42-b8bd-0c5da1f25905")
 	)
 	(text "ID_SD and ID_SC PINS:\nThese pins are reserved for HAT ID EEPROM.\n\nAt boot time this I2C interface will be\ninterrogated to look for an EEPROM\nthat identifes the attached board and\nallows automagic setup of the GPIOs\n(and optionally, Linux drivers).\n\nBridging JP1 enables write protection.\n\nDO NOT USE these pins for anything other\nthan attaching an I2C ID EEPROM. Leave\nunconnected if ID EEPROM not required."
 		(exclude_from_sim no)
@@ -7533,6 +7544,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SSQ-120-01-F-D"
+			(at 71.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Mount on bottom of PCB."
+			(at 71.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d678796-43d4-427f-808d-7fd8ec169db6")
 		)
@@ -7715,6 +7744,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RAPC722BK"
+			(at 31.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Populate either J2 or J4.  J4 is intended to give the hat a smaller footprint when installed inside the clock housing.  J2 is intended for use with a full-size Raspberry Pi."
+			(at 31.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "724ba3ec-073f-434a-ab90-7c211b4f1941")
 		)
@@ -7868,6 +7915,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TBP01R1-508-04BE"
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8076,6 +8132,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SPBW06F-05"
+			(at 140.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75ed3955-8df7-4334-baf2-f34453ad03cc")
 		)
@@ -8228,6 +8293,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C315C104M5U5TA7303"
+			(at 66.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bae72f5-95d2-4a7b-8b1c-9b5fd0c891f6")
 		)
@@ -8366,6 +8440,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CFM12JT220R"
+			(at 157.48 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc9d45f3-b8a2-4997-867d-7b6e6fd2b64f")
 		)
@@ -8462,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Value" "CAT24C256"
+		(property "Value" "24LC64-I/P"
 			(at 87.63 184.5245 0)
 			(effects
 				(font
@@ -8489,6 +8572,15 @@
 			)
 		)
 		(property "Description" "256 kb CMOS Serial EEPROM, DIP-8/SOIC-8/TSSOP-8/DFN-8"
+			(at 81.28 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "24LC64-I/P"
 			(at 81.28 177.8 0)
 			(effects
 				(font
@@ -8582,6 +8674,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CFM12JT220R"
+			(at 157.48 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88c088dc-b7e7-4a38-8770-1fa6bb581846")
 		)
@@ -8668,10 +8769,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f875877-fb1b-49b9-94dc-3e4576fd72bf")
 		(property "Reference" "JP1"
-			(at 91.44 30.48 0)
+			(at 91.44 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,7 +8779,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 91.44 33.02 0)
+			(at 91.694 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,6 +8805,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 91.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "When installed, JP1 provides 5VDC to the Raspberry Pi.  This hat can supply 5VDC at 1.2A, which is enough for a Raspberry Pi Zero 2W."
 			(at 91.44 35.56 0)
 			(effects
 				(font
@@ -8773,6 +8882,15 @@
 			)
 		)
 		(property "Description" "Glass Passivated Single-Phase Bridge Rectifier, 250V Vrms, 1.5A If, WOG package"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B250C1000G-E4/51"
 			(at 86.36 124.46 0)
 			(effects
 				(font
@@ -8911,6 +9029,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CFM12JT3K90"
+			(at 101.6 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,6 +9247,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C315C104M5U5TA7303"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bce3288-3640-4053-a7eb-6a528ffda0f6")
 		)
@@ -9246,6 +9382,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "REF1016101M100K"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Choose a capacitor 16mm tall or less, to provide clearance inside the clock movement cover."
 			(at 99.06 129.54 0)
 			(effects
 				(font
@@ -9390,6 +9544,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ECE-A1EN100UI"
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b58a51b-6982-4e09-a322-9fee75cef271")
 		)
@@ -9450,6 +9613,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CFM12JT3K90"
+			(at 93.98 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9530,6 +9702,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0251.630MAT1L"
+			(at 54.61 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13f57184-13dd-44e5-9442-c8d03433679f")
 		)
@@ -9590,6 +9771,24 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 31.75 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RAPC722BK"
+			(at 31.75 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 31.75 138.43 0)
 			(effects
 				(font
@@ -9870,6 +10069,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LAA108"
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "a1526a0c-86c0-454f-93c0-2134a0eaa12a")
 		)
@@ -10090,6 +10298,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LAA108"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "6d7c9b1f-ac59-428d-acbe-340280b30389")
 		)
@@ -10233,6 +10450,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C315C104M5U5TA7303"
 			(at 187.96 133.35 0)
 			(effects
 				(font
